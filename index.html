@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; color:RED }
-    </style>
-    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap on GitHub Pages</title>
+    
+    <!-- Bootstrap CSS (via CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
-    <div class="label">
-    <h3>Welcome to My GitHub Page</h3>
-    <p>This is my awesome project website!</p>
+    <div class="container text-center">
+        <h1 class="text-primary mt-5">Welcome to My GitHub Page</h1>
+        <p class="lead">This page is styled using Bootstrap!</p>
+        <button class="btn btn-success">Click Me</button>
     </div>
+
+    <!-- Bootstrap JS (optional, for interactive components like modals) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
